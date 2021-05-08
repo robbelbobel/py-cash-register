@@ -392,3 +392,11 @@ Total Price: 3.5
 BTW(21%): 0.61
 BTW(6%): 0
 @
+werknemer: False
+2021-05-08 19:41:30.813161:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@

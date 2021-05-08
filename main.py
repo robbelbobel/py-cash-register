@@ -111,7 +111,7 @@ def drawOrders(tBTW):
             btw = 6/100
             soft_totalBTW += price - (price / (1 + btw))
         elif (-x) < len(alcoDrinks):
-            btw = 21/100
+            btw = 6/100
             alco_totalBTW += price - (price / (1 + btw))
 
         tBTW += price - (price / (1 + btw))
@@ -323,8 +323,8 @@ def getCoordinates(obj, objNumberX, objNumberY, placeX, placeY, isText, isDrink,
 pygame.init()
 pygame.font.init()
 
-w = 1920
-h = 1000
+w = 1280
+h = 720
 
 c_menu = 4
 
