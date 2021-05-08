@@ -1,0 +1,394 @@
+werkMode: False
+2021-03-21 21:24:55.096579:
+Thee 2.5
+Thee 2.5
+Chocomelk 2.0
+Total Price: 7.0
+BTW(21%): 0
+BTW(6%): 0.4
+@
+werkMode: False
+2021-03-21 21:24:59.562953:
+Climax 33cl 3.5
+Rose_Fles 16.0
+Hugo 6.0
+Total Price: 25.5
+BTW(21%): 4.43
+BTW(6%): 0
+@
+werknemer: False
+2021-03-23 17:15:42.629422:
+Total Price: 0
+BTW(21%): 0
+BTW(6%): 0
+@
+werknemer: True
+2021-03-23 17:34:57.276347:
+Fritz Limo 33cl 3.0
+Total Price: 3.0
+BTW(21%): 0
+BTW(6%): 0.17
+@
+werknemer: False
+2020-07-24 00:46:26.372042:
+Census 33cl 3.5
+Climax 33cl 3.5
+Total Price: 7.0
+BTW(21%): 1.21
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 00:51:52.926372:
+Climax_33cl 3.5
+Climax_33cl 3.5
+Total Price: 7.0
+BTW(21%): 1.21
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 00:56:45.635511:
+Fritz_Limo_33cl 3.0
+Total Price: 3.0
+BTW(21%): 0
+BTW(6%): 0.17
+@
+werknemer: False
+2020-07-24 00:57:45.042636:
+Hugo 6.0
+Total Price: 6.0
+BTW(21%): 1.04
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:00:31.180785:
+Climax_33cl 3.5
+Total Price: 3.5
+BTW(21%): 0.61
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:04:58.194438:
+Climax 3.5
+Hugo 6.0
+Total Price: 9.5
+BTW(21%): 1.65
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:11:00.121835:
+Confituur 2.0
+Total Price: 2.0
+BTW(21%): 0
+BTW(6%): 0.11
+@
+werknemer: True
+2020-07-24 01:14:54.172957:
+Koffie 2.5
+Thee 2.5
+Chocomelk 2.0
+Latte 3.0
+Club_Mate 3.0
+Fritz_Kola 3.0
+Fritz_Limo 3.0
+Fruitsap 2.5
+Koffie 2.5
+Thee 2.5
+Water 2.0
+Wostok 3.0
+Hugo_Junior 4.5
+Cava_Fles 18.0
+Cava_Fles 18.0
+Census 3.5
+Climax 3.5
+Hugo 6.0
+Lemon_Licker 7.0
+Pussy_Pepper 7.0
+Rose 3.5
+Rode_Wijn 3.5
+Rode_Wijn 3.5
+Rode_Wijn_Fles 16.0
+Witte_Wijn 3.5
+Witte_Wijn_Fles 16.0
+Zoute_Chips 2.0
+Paprika_Chips 2.0
+Confituur 2.0
+Soep 2.0
+Pannenkoek 2.0
+Total Price: 155.0
+BTW(21%): 18.92
+BTW(6%): 2.43
+@
+werknemer: False
+2020-07-24 01:18:16.343786:
+Census 3.5
+Total Price: 3.5
+BTW(21%): 0.61
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:21:24.056608:
+Climax 3.5
+Total Price: 3.5
+BTW(21%): 0.61
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:23:13.986384:
+Climax 3.5
+Climax 3.5
+Total Price: 7.0
+BTW(21%): 1.21
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:26:22.572356:
+Climax 3.5
+Total Price: 3.5
+BTW(21%): 0.61
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:26:46.888341:
+Total Price: 0
+BTW(21%): 0
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:28:15.911919:
+Total Price: 0
+BTW(21%): 0
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:28:38.135756:
+Total Price: 0
+BTW(21%): 0
+BTW(6%): 0
+@
+werknemer: False
+2020-07-24 01:33:16.668733:
+Koffie 2.5
+Thee 2.5
+Chocomelk 2.0
+Latte 3.0
+Club_Mate 3.0
+Fritz_Kola 3.0
+Fritz_Limo 3.0
+Fruitsap 2.5
+Koffie 2.5
+Thee 2.5
+Water 2.0
+Wostok 3.0
+Hugo_Jr. 4.5
+Cava_Fles 18.0
+Cava_Fles 18.0
+Census 3.5
+Climax 3.5
+Hugo 6.0
+Rose_Fles 16.0
+Rose_Fles 16.0
+Rose 3.5
+Lem_Licker 7.0
+Lem_Licker 7.0
+R_Wijn_Fles 16.0
+Witte_Wijn 3.5
+W_Wijn_Fles 16.0
+Chips_Zout 2.0
+Chips_Papr 2.0
+Confituur 2.0
+Soep 2.0
+Pannenkoek 2.0
+Total Price: 180.0
+BTW(21%): 23.26
+BTW(6%): 2.43
+@
+werknemer: False
+2020-07-24 01:35:46.610001:
+Koffie 2.5
+Thee 2.5
+Chocomelk 2.0
+Latte 3.0
+Club_Mate 3.0
+Fritz_Limo 3.0
+Fritz_Limo 3.0
+Fruitsap 2.5
+Koffie 2.5
+Thee 2.5
+Water 2.0
+Wostok 3.0
+Hugo_Jr. 4.5
+Cava_Fles 18.0
+Cava_Fles 18.0
+Census 3.5
+Hugo 6.0
+Hugo 6.0
+Lem_Licker 7.0
+Pus_Pepper 7.0
+Rose 3.5
+Rode_Wijn 3.5
+Rode_Wijn 3.5
+R_Wijn_Fles 16.0
+Witte_Wijn 3.5
+W_Wijn_Fles 16.0
+Chips_Zout 2.0
+Chips_Papr 2.0
+Confituur 2.0
+Soep 2.0
+Pannenkoek 2.0
+Total Price: 157.5
+BTW(21%): 19.35
+BTW(6%): 2.43
+@
+werknemer: False
+2020-07-24 02:15:01.184170:
+Cava_Fles 18.0
+Cava 4.5
+Census 3.5
+Cava_Fles 18.0
+Koffie 2.5
+Koffie 2.5
+Total Price: 49.0
+BTW(21%): 7.64
+BTW(6%): 0.28
+@
+werknemer: True
+2020-07-24 02:24:01.097153:
+Koffie 2.5
+Koffie 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2020-07-24 02:29:00.065763:
+Pannenkoek 2.0
+Pus_Pepper 7.0
+Chips_Papr 2.0
+Latte 3.0
+Total Price: 14.0
+BTW(21%): 1.21
+BTW(6%): 0.4
+@
+werknemer: True
+2020-07-24 02:29:36.883496:
+Koffie 2.5
+Koffie 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: True
+2020-07-24 02:31:24.948730:
+Koffie 2.5
+Koffie 2.5
+Chocomelk 2.0
+Total Price: 7.0
+BTW(21%): 0
+BTW(6%): 0.4
+@
+werknemer: False
+2020-07-24 05:15:02.663849:
+Koffie 2.5
+Climax 3.5
+Total Price: 6.0
+BTW(21%): 0.61
+BTW(6%): 0.14
+@
+werknemer: False
+2020-07-24 06:08:30.605583:
+Thee 2.5
+Chocomelk 2.0
+Total Price: 4.5
+BTW(21%): 0
+BTW(6%): 0.25
+@
+werknemer: False
+2020-07-24 06:15:52.165475:
+Koffie 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2020-07-24 08:19:05.360665:
+Koffie 2.5
+Fritz_Kola 3.0
+Pannenkoek 2.0
+Total Price: 7.5
+BTW(21%): 0
+BTW(6%): 0.42
+@
+werknemer: False
+2020-07-24 08:25:58.484610:
+Fritz_Limo 3.0
+Pannenkoek 2.0
+Latte 3.0
+Chocomelk 2.0
+Latte 3.0
+Total Price: 13.0
+BTW(21%): 0
+BTW(6%): 0.74
+@
+werknemer: False
+2020-07-24 08:31:05.702560:
+Pus_Pepper 7.0
+Climax 3.5
+Soep 2.0
+Pannenkoek 2.0
+Confituur 2.0
+Total Price: 16.5
+BTW(21%): 1.82
+BTW(6%): 0.34
+@
+werknemer: False
+2020-07-24 08:35:41.362724:
+Fritz_Kola 3.0
+Koffie 2.5
+Rose 3.5
+Hugo_Jr. 4.5
+Total Price: 13.5
+BTW(21%): 0.61
+BTW(6%): 0.57
+@
+werknemer: False
+2020-07-24 08:42:04.621095:
+R_Wijn_Fl 16.0
+Pannenkoek 2.0
+Latte 3.0
+Koffie 2.5
+R_Wijn_Fl 16.0
+Soep 2.0
+Total Price: 41.5
+BTW(21%): 5.55
+BTW(6%): 0.54
+@
+werknemer: False
+2020-07-24 08:45:31.362299:
+Climax 3.5
+Climax 3.5
+Climax 3.5
+Cava_Fles 18.0
+Hugo 6.0
+Fritz_Limo 3.0
+Total Price: 37.5
+BTW(21%): 5.99
+BTW(6%): 0.17
+@
+werknemer: False
+2020-07-24 16:21:36.281600:
+Chocomelk 2.0
+Chocomelk 2.0
+Chocomelk 2.0
+Koffie 2.5
+Total Price: 8.5
+BTW(21%): 0
+BTW(6%): 0.48
+@
+werknemer: False
+2020-07-24 16:20:40.780848:
+Climax 3.5
+Total Price: 3.5
+BTW(21%): 0.61
+BTW(6%): 0
+@

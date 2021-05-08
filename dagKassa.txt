@@ -1,0 +1,86 @@
+2021-03-21:
+Dummy Orders:
+2x Thee 2.5
+1x Chocomelk 2.0
+1x Climax 33cl 3.5
+1x Rose_Fles 16.0
+1x Hugo 6.0
+Orders:
+Total: 0
+Total(21%): 0
+Total(6%): 0
+
+2021-03-23:
+Dummy Orders:
+1x Fritz Limo 33cl 3.0
+Orders:
+Total: 0.0
+Total(21%): 0.0
+Total(6%): 0.0
+
+2020-07-24:
+Dummy Orders:
+2x Koffie 2.5
+2x Thee 2.5
+1x Chocomelk 2.0
+1x Latte 3.0
+1x Club_Mate 3.0
+1x Fritz_Kola 3.0
+1x Fritz_Limo 3.0
+1x Fruitsap 2.5
+1x Water 2.0
+1x Wostok 3.0
+1x Hugo_Junior 4.5
+2x Cava_Fles 18.0
+1x Census 3.5
+1x Climax 3.5
+1x Hugo 6.0
+1x Lemon_Licker 7.0
+1x Pussy_Pepper 7.0
+1x Rose 3.5
+2x Rode_Wijn 3.5
+1x Rode_Wijn_Fles 16.0
+1x Witte_Wijn 3.5
+1x Witte_Wijn_Fles 16.0
+1x Zoute_Chips 2.0
+1x Paprika_Chips 2.0
+1x Confituur 2.0
+1x Soep 2.0
+1x Pannenkoek 2.0
+Orders:
+1x Census 33cl 3.5
+1x Climax 33cl 3.5
+3x Climax_33cl 3.5
+1x Fritz_Limo_33cl 3.0
+5x Hugo 6.0
+6x Climax 3.5
+3x Confituur 2.0
+3x Census 3.5
+4x Koffie 2.5
+4x Thee 2.5
+2x Chocomelk 2.0
+2x Latte 3.0
+2x Club_Mate 3.0
+1x Fritz_Kola 3.0
+3x Fritz_Limo 3.0
+2x Fruitsap 2.5
+2x Water 2.0
+2x Wostok 3.0
+2x Hugo_Jr. 4.5
+4x Cava_Fles 18.0
+2x Rose_Fles 16.0
+2x Rose 3.5
+3x Lem_Licker 7.0
+2x R_Wijn_Fles 16.0
+2x Witte_Wijn 3.5
+2x W_Wijn_Fles 16.0
+2x Chips_Zout 2.0
+2x Chips_Papr 2.0
+2x Soep 2.0
+2x Pannenkoek 2.0
+1x Pus_Pepper 7.0
+2x Rode_Wijn 3.5
+Total: 393.0
+Total(21%): 51.370000000000005
+Total(6%): 5.140000000000001
+
