@@ -1,4 +1,5 @@
 import pygame
+from pygame.locals import *
 import math
 import os
 from datetime import date
@@ -530,7 +531,7 @@ foodID = [salt_chips_ID, paprika_chips_ID, confituur_ID, soup_ID, pancake_ID, ma
 checkOutButtons = [back, complete]
 
 orderList = []
-priceList = [None, 4.50, 18.00, 3.50, 3.50, 6.00, 7.00, 7.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.00, 3.00, 4.50, 2.00, 2.00, 2.00, 2.00, 2.00, 2.00, 3.00]
+priceList = [None, 4.50, 18.00, 3.50, 3.50, 7.00, 8.00, 8.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.00, 3.00, 4.50, 2.00, 2.00, 2.50, 2.00, 4.00, 2.00, 3.00]
 nameList = [None, "Cava", "Cava_Fles", "Census", "Climax", "Hugo", "Lem_Licker", "Pus_Pepper", "Rose", "Rose_Fles", "Rode_Wijn", "R_Wijn_Fl", "Witte_Wijn", "W_Wijn_Fl", "Club_Mate", "Fritz_Kola", "Fritz_Limo", "Fruitsap", "Koffie", "Thee", "Water", "Wostok" , "Hugo_Jr.", "Chips_Zout", "Chips_Papr", "Chocomelk", "Confituur", "Soep", "Pannenkoek", "Latte"]
 
 bg = pygame.image.load("assets/bg.jpeg")
@@ -625,6 +626,3 @@ while active:
     pygame.display.update()
 
 pygame.quit()
-
-#NOTES:
-#Latte Macchiato prijs klopt niet

@@ -17,6 +17,8 @@ class StartMenu:
         self.moneyHeight = 100
         self.UIHeight = 200
 
+        self.moneyUnitList.append(MoneyUnit(50.0, self.scaleImage(pygame.image.load("assets/money/euro_50.jpg"), self.moneyHeight)))
+        self.moneyUnitList.append(MoneyUnit(20.0, self.scaleImage(pygame.image.load("assets/money/euro_20.png"), self.moneyHeight)))
         self.moneyUnitList.append(MoneyUnit(10.0, self.scaleImage(pygame.image.load("assets/money/euro_10.jpg"), self.moneyHeight)))
         self.moneyUnitList.append(MoneyUnit(5.0, self.scaleImage(pygame.image.load("assets/money/euro_5.png"), self.moneyHeight)))
         self.moneyUnitList.append(MoneyUnit(2.0, self.scaleImage(pygame.image.load("assets/money/euro_2.jpg"), self.moneyHeight)))
@@ -26,8 +28,6 @@ class StartMenu:
         self.moneyUnitList.append(MoneyUnit(0.10, self.scaleImage(pygame.image.load("assets/money/cent_10.jpg"), self.moneyHeight)))
         self.moneyUnitList.append(MoneyUnit(0.05, self.scaleImage(pygame.image.load("assets/money/cent_5.jpg"), self.moneyHeight)))
         
-        
-
         self.UIElementList.append(UIElement(self.scaleImage(pygame.image.load("assets/UI/next.jpg"), self.UIHeight), RETURN_MENU))
     
     def scaleImage(self, pic, resize_h):
@@ -37,7 +37,7 @@ class StartMenu:
         pic_resize_height = resize_h
         pic_resize_width = math.floor(pic_width / (pic_height/pic_resize_height))
 
-        pic_resized = pygame.transform.smoothscale(pic, (pic_resize_width, pic_resize_height))
+        pic_resized = pygame.transform.scale(pic, (pic_resize_width, pic_resize_height))
 
         return pic_resized
 

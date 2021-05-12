@@ -8,8 +8,8 @@ from moneyUnit import MoneyUnit
 
 pygame.init()
 
-width = 1920
-height = 1000
+width = 1028
+height = 720
 
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Money System")
