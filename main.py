@@ -223,7 +223,7 @@ def coldMenu():
 def alcoMenu():
     win.blit(bg, (0, 0))
 
-    alco_objnumX = 5
+    alco_objnumX = 6
     alco_objnumY = 3
 
     blitDrinks(alco_objnumX, alco_objnumY, alcoDrinks, alcoDrinksID)
@@ -339,7 +339,7 @@ pygame.display.set_caption("Kassa")
 
 active = True
 
-m_pic_x = int(w_tot/7)
+m_pic_x = int(w_tot/8)
 m_pic_y = m_pic_x
 
 pic_x = int(w_tot/5)
@@ -466,6 +466,22 @@ latte_macchiato = pygame.image.load("assets/soft_drinks/latte_macchiato.png")
 latte_macchiato = pygame.transform.smoothscale(latte_macchiato, (m_pic_x, m_pic_y))
 latte_macchiato_ID = -29
 
+desperados = pygame.image.load("assets/alcohol/desperados.jpg")
+desperados = pygame.transform.smoothscale(desperados, (m_pic_x, m_pic_y))
+desperados_ID = -30
+
+desperados_6 = pygame.image.load("assets/alcohol/desperados_6.jpg")
+desperados_6 = pygame.transform.smoothscale(desperados_6, (m_pic_x, m_pic_y))
+desperados_6_ID = -31
+
+lokales = pygame.image.load("assets/alcohol/lokales.jpg")
+lokales = pygame.transform.smoothscale(lokales, (m_pic_x, m_pic_y))
+lokales_ID = -32
+
+almdudler = pygame.image.load("assets/soft_drinks/almdudler.png")
+almdudler = pygame.transform.smoothscale(almdudler, (m_pic_x, m_pic_y))
+almdudler_ID = -33
+
 delete = pygame.image.load("assets/delete.png")
 delete = pygame.transform.smoothscale(delete, (pic_x, pic_y))
 
@@ -516,8 +532,8 @@ main_ID = 4
 checkout_ID = 5 #Checkout ID
 
 #Drink lists
-alcoDrinks = [cava, cava_fles, census, climax, hugo, lemon_licker, pussy_pepper, rose, rose_fles, r_wijn, r_wijn_fles, w_wijn, w_wijn_fles, back]
-alcoDrinksID = [cava_ID, cava_fles_ID, census_ID, climax_ID, hugo_ID, lemon_licker_ID, pussy_pepper_ID, rose_ID, rose_fles_ID,r_wijn_ID, r_wijn_fles_ID, w_wijn_ID, w_wijn_fles_ID, main_ID]
+alcoDrinks = [cava, cava_fles, census, climax, hugo, lemon_licker, pussy_pepper, rose, rose_fles, r_wijn, r_wijn_fles, w_wijn, w_wijn_fles, desperados, desperados_6, lokales, back]
+alcoDrinksID = [cava_ID, cava_fles_ID, census_ID, climax_ID, hugo_ID, lemon_licker_ID, pussy_pepper_ID, rose_ID, rose_fles_ID,r_wijn_ID, r_wijn_fles_ID, w_wijn_ID, w_wijn_fles_ID, desperados_ID, desperados_6_ID, lokales_ID, main_ID]
 
 softDrinks = [club_mate, fritz_kola, fritz_limo, fruitsap, koffie, thee, water, wostok, hugo_junior, back]
 softDrinksID =[club_mate_ID, fritz_kola_ID, fritz_limo_ID, fruitsap_ID, koffie_ID, thee_ID, water_ID, wostok_ID, hugo_junior_ID, main_ID]
@@ -531,8 +547,8 @@ foodID = [salt_chips_ID, paprika_chips_ID, confituur_ID, soup_ID, pancake_ID, ma
 checkOutButtons = [back, complete]
 
 orderList = []
-priceList = [None, 4.50, 18.00, 3.50, 3.50, 7.00, 8.00, 8.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.00, 3.00, 4.50, 2.00, 2.00, 2.50, 2.00, 4.00, 2.00, 3.00]
-nameList = [None, "Cava", "Cava_Fles", "Census", "Climax", "Hugo", "Lem_Licker", "Pus_Pepper", "Rose", "Rose_Fles", "Rode_Wijn", "R_Wijn_Fl", "Witte_Wijn", "W_Wijn_Fl", "Club_Mate", "Fritz_Kola", "Fritz_Limo", "Fruitsap", "Koffie", "Thee", "Water", "Wostok" , "Hugo_Jr.", "Chips_Zout", "Chips_Papr", "Chocomelk", "Confituur", "Soep", "Pannenkoek", "Latte"]
+priceList = [None, 4.50, 18.00, 3.50, 3.50, 7.00, 8.00, 8.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.00, 3.00, 4.50, 2.00, 2.00, 2.50, 2.00, 4.00, 2.00, 3.00, 4.50, 22.50, 4.50, 3.00]
+nameList = [None, "Cava", "Cava_Fles", "Census", "Climax", "Hugo", "Lem_Licker", "Pus_Pepper", "Rose", "Rose_Fles", "Rode_Wijn", "R_Wijn_Fl", "Witte_Wijn", "W_Wijn_Fl", "Club_Mate", "Fritz_Kola", "Fritz_Limo", "Fruitsap", "Koffie", "Thee", "Water", "Wostok" , "Hugo_Jr.", "Chips_Zout", "Chips_Papr", "Chocomelk", "Confituur", "Soep", "Pannenkoek", "Latte", "Desperados", "Desperados_5+1", "Lokales", "almdudler"]
 
 bg = pygame.image.load("assets/bg.jpeg")
 bg = pygame.transform.scale(bg, (int(w), int(h)))
