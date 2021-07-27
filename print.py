@@ -26,6 +26,12 @@ total = float(0)
 count = []
 multiples = []
 r = 0
+
+#Calculate total price
+for k in prices:
+    total += float(k)
+    print(float(k))
+
 while r < len(items):
 	if items.count(items[r]) > 1:
 	    if items[r] in multiples:
@@ -39,10 +45,6 @@ while r < len(items):
 	elif items.count(items[r]) == 1:
 		count.append(1)
 		r += 1
-
-#Calculate total price
-for k in prices:
-    total += float(k) * count[prices.index(k)]
 
 #Remove underscores from item names
 for k in items:
@@ -60,6 +62,8 @@ while x < len(items):
     orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\\n")
     x += 1
 
-os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
+print(orderPrintString + postPrintString)
+
+# os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
 
 
