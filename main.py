@@ -601,6 +601,7 @@ while active:
     if c_menu == food_ID:
         foodMenu()
     if c_menu == checkout_ID:
+        printOrders()
         checkOut()
 
     for event in pygame.event.get():
@@ -628,7 +629,6 @@ while active:
                     orderList = []
                 
                 if i == complete_ID:
-                    printOrders()
                     orderList = []
                     c_menu = main_ID
                 

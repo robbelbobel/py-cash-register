@@ -511,3 +511,67 @@ Total Price: 31.0
 BTW(21%): 0.82
 BTW(6%): 0.93
 @
+werknemer: False
+2021-08-02 20:00:25.710840:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:25.910384:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:26.099872:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:26.307941:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:26.498192:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:26.706780:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:26.897891:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
+werknemer: False
+2021-08-02 20:00:27.088610:
+Thee 2.5
+Thee 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(6%): 0.28
+@
