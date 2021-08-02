@@ -419,3 +419,95 @@ Total Price: 54.0
 BTW(21%): 0
 BTW(6%): 3.06
 @
+werknemer: False
+2021-07-25 19:23:53.087003:
+Koffie 2.5
+Fritz_Kola 3.0
+Total Price: 5.5
+BTW(21%): 0.17
+BTW(6%): 0.14
+@
+werknemer: False
+2021-07-27 21:46:35.375245:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
+werknemer: False
+2021-07-27 21:48:49.304500:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
+werknemer: False
+2021-07-27 21:51:05.774102:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
+werknemer: False
+2021-07-27 21:54:31.854263:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
+werknemer: False
+2021-07-27 21:57:12.261880:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
+werknemer: False
+2021-07-27 21:58:25.539787:
+Latte 3.0
+Latte 3.0
+Latte 3.0
+Fritz_Kola 3.0
+Hugo_Jr. 4.5
+Census 3.5
+Pus_Pepper 8.0
+Wostok 3.0
+Total Price: 31.0
+BTW(21%): 0.82
+BTW(6%): 0.93
+@
