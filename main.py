@@ -210,7 +210,7 @@ def coldMenu():
     win.blit(bg, (0, 0))
  
     cold_objnumX = 5
-    cold_objnumY = 2
+    cold_objnumY = 4
  
     blitDrinks(cold_objnumX, cold_objnumY, softDrinks, softDrinksID)
  
@@ -367,10 +367,6 @@ hugo = pygame.image.load("assets/alcohol/hugo.png")
 hugo = pygame.transform.smoothscale(hugo, (m_pic_x, m_pic_y))
 hugo_ID = -5
  
-# lemon_licker = pygame.image.load("assets/alcohol/cocktail.png")
-# lemon_licker = pygame.transform.smoothscale(lemon_licker, (m_pic_x, m_pic_y))
-# lemon_licker_ID = -6
- 
 bier_cocktail = pygame.image.load("assets/alcohol/cocktail.png")
 bier_cocktail = pygame.transform.smoothscale(bier_cocktail, (m_pic_x, m_pic_y))
 bier_cocktail_ID = -7
@@ -486,7 +482,51 @@ taart_ID = -35
 koffie_taart = pygame.image.load("assets/food/koffie_taart.png")
 koffie_taart = pygame.transform.smoothscale(koffie_taart, (m_pic_x, m_pic_y))
 koffie_taart_ID = -36
+
+iced_latte = pygame.image.load("assets/soft_drinks/iced_latte.png")
+iced_latte = pygame.transform.smoothscale(iced_latte, (m_pic_x, m_pic_y))
+iced_latte_ID = -37
+
+soep_liter = pygame.image.load("assets/food/soup.png")
+soep_liter = pygame.transform.smoothscale(soep_liter, (m_pic_x, m_pic_y))
+soep_liter_ID = -38
+
+spec_1 = pygame.image.load("assets/spec_1.png")
+spec_1 = pygame.transform.smoothscale(spec_1, (m_pic_x, m_pic_y))
+spec_1_ID = -39
+
+spec_1_5 = pygame.image.load("assets/spec_1_5.png")
+spec_1_5 = pygame.transform.smoothscale(spec_1_5, (m_pic_x, m_pic_y))
+spec_1_5_ID = -40
+
+spec_2 = pygame.image.load("assets/spec_2.png")
+spec_2 = pygame.transform.smoothscale(spec_2, (m_pic_x, m_pic_y))
+spec_2_ID = -41
+
+spec_2_5 = pygame.image.load("assets/spec_2_5.png")
+spec_2_5 = pygame.transform.smoothscale(spec_2_5, (m_pic_x, m_pic_y))
+spec_2_5_ID = -42
+
+spec_3 = pygame.image.load("assets/spec_3.png")
+spec_3 = pygame.transform.smoothscale(spec_3, (m_pic_x, m_pic_y))
+spec_3_ID = -43
+
+spec_3_5 = pygame.image.load("assets/spec_3_5.png")
+spec_3_5 = pygame.transform.smoothscale(spec_3_5, (m_pic_x, m_pic_y))
+spec_3_5_ID = -44
+
+spec_4 = pygame.image.load("assets/spec_4.png")
+spec_4 = pygame.transform.smoothscale(spec_4, (m_pic_x, m_pic_y))
+spec_4_ID = -45
  
+spec_4_5 = pygame.image.load("assets/spec_4_5.png")
+spec_4_5 = pygame.transform.smoothscale(spec_4_5, (m_pic_x, m_pic_y))
+spec_4_5_ID = -46
+
+spec_5 = pygame.image.load("assets/spec_5.png")
+spec_5 = pygame.transform.smoothscale(spec_5, (m_pic_x, m_pic_y))
+spec_5_ID = -47
+
 delete = pygame.image.load("assets/delete.png")
 delete = pygame.transform.smoothscale(delete, (pic_x, pic_y))
  
@@ -540,20 +580,20 @@ checkout_ID = 5 #Checkout ID
 alcoDrinks = [cava, cava_fles, census, climax, hugo, bier_cocktail, rose, rose_fles, r_wijn, r_wijn_fles, w_wijn, w_wijn_fles, desperados, desperados_6, lokales, back]
 alcoDrinksID = [cava_ID, cava_fles_ID, census_ID, climax_ID, hugo_ID, bier_cocktail_ID, rose_ID, rose_fles_ID,r_wijn_ID, r_wijn_fles_ID, w_wijn_ID, w_wijn_fles_ID, desperados_ID, desperados_6_ID, lokales_ID, main_ID]
  
-softDrinks = [club_mate, fritz_kola, fritz_limo, fruitsap, water, wostok, hugo_junior, almdudler, chocomelk, back]
-softDrinksID =[club_mate_ID, fritz_kola_ID, fritz_limo_ID, fruitsap_ID, water_ID, wostok_ID, hugo_junior_ID, almdudler_ID, chocomelk_ID, main_ID]
+softDrinks = [club_mate, fritz_kola, fritz_limo, fruitsap, water, wostok, hugo_junior, almdudler, chocomelk, iced_latte, spec_1, spec_1_5, spec_2, spec_2_5, spec_3, spec_3_5, spec_4, spec_4_5, spec_5, back]
+softDrinksID =[club_mate_ID, fritz_kola_ID, fritz_limo_ID, fruitsap_ID, water_ID, wostok_ID, hugo_junior_ID, almdudler_ID, chocomelk_ID, iced_latte_ID, spec_1_ID, spec_1_5_ID, spec_2_ID, spec_2_5_ID, spec_3_ID, spec_3_5_ID, spec_4_ID, spec_4_5_ID, spec_5_ID, main_ID]
  
 hotDrinks = [koffie, thee, chocomelk, latte_macchiato, cappucino, back]
 hotDrinksID = [koffie_ID, thee_ID, chocomelk_ID, latte_macchiato_ID, cappucino_ID, main_ID]
  
-food = [chips, confituur, soup, pancake, taart, koffie_taart,  back]
-foodID = [chips_ID, confituur_ID, soup_ID, pancake_ID, taart_ID, koffie_taart_ID, main_ID]
+food = [chips, confituur, soup, pancake, taart, koffie_taart, soep_liter, back]
+foodID = [chips_ID, confituur_ID, soup_ID, pancake_ID, taart_ID, koffie_taart_ID, soep_liter_ID, main_ID]
  
 checkOutButtons = [back, complete]
  
 orderList = []
-priceList = [None, 4.50, 18.00, 3.50, 3.50, 7.00, 8.00, 8.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.50, 3.00, 5.00, 2.50, 2.50, 2.50, 2.00, 4.00, 2.00, 3.00, 4.50, 22.50, 4.50, 3.00, 3.00, 3.00, 5.00]
-nameList = [None, "Cava", "Cava_Fles", "Census", "Climax", "Hugo", "NA", "bier_cocktail", "Rose", "Rose_Fles", "Rode_Wijn", "R_Wijn_Fl", "Witte_Wijn", "W_Wijn_Fl", "Club_Mate", "Fritz_Kola", "Fritz_Limo", "Fruitsap", "Koffie", "Thee", "Water", "Wostok" , "Hugo_Jr.", "NA", "Chips", "Chocomelk", "Confituur", "Soep", "Pannenkoek", "Latte", "Desperados", "Desperados_5+1", "Lokales", "almdudler", "cappuccino", "taart", "koff_taart"]
+priceList = [None, 4.50, 18.00, 3.50, 3.50, 7.00, 8.00, 8.00, 3.50, 16.00, 3.50, 16.00, 3.50, 16.00, 3.00, 3.00, 3.00, 2.50, 2.50, 2.50, 2.50, 3.00, 5.00, 2.50, 2.50, 2.50, 2.00, 4.00, 2.00, 3.00, 4.50, 22.50, 4.50, 3.00, 3.00, 3.00, 5.00, 4.00, 5.00, 1.00, 1.50, 2.00, 2.50, 3.00, 3.50, 4.00, 4.50, 5.00]
+nameList = [None, "Cava", "Cava_Fles", "Census", "Climax", "Hugo", "NA", "bier_cocktail", "Rose", "Rose_Fles", "Rode_Wijn", "R_Wijn_Fl", "Witte_Wijn", "W_Wijn_Fl", "Club_Mate", "Fritz_Kola", "Fritz_Limo", "Fruitsap", "Koffie", "Thee", "Water", "Wostok" , "Hugo_Jr.", "NA", "Chips", "Chocomelk", "Confituur", "Soep", "Pannenkoek", "Latte", "Desperados", "Desperados_5+1", "Lokales", "almdudler", "cappuccino", "taart", "koff_taart", "iced_latte", "soep_liter", "spec_1", "spec_1_5", "spec_2", "spec_2_5", "spec_3", "spec_3_5", "spec_4", "spec_4_5", "spec_5"]
  
 bg = pygame.image.load("assets/bg.jpeg")
 bg = pygame.transform.scale(bg, (int(w), int(h)))

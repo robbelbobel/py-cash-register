@@ -64,6 +64,6 @@ while x < len(items):
 
 print(orderPrintString + postPrintString)
 
-# os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
+os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
 
 
