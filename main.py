@@ -109,9 +109,11 @@ def drawOrders(tBTW):
         price = priceList[-x]
 
         if x in alcoDrinksID:
-            btw = 6/100         # Alcohol BTW
+            btw = 21/100        # Alcohol BTW
+        elif x in softDrinksID:
+            btw = 6/100         # Softdrinks BTW
         else:
-            btw = 6/100         # Softdrinks and food BTW
+            btw = 12/100        # Food BTW
  
         tBTW += price - (price / (1 + btw))
  
@@ -443,11 +445,11 @@ confituur = pygame.image.load("assets/food/confituur.png")
 confituur = pygame.transform.smoothscale(confituur, (m_pic_x, m_pic_y))
 confituur_ID = -26
  
-soup = pygame.image.load("assets/food/soup.png")
-soup = pygame.transform.smoothscale(soup, (m_pic_x, m_pic_y))
-soup_ID = -27
+soep = pygame.image.load("assets/food/soep.png")
+soep = pygame.transform.smoothscale(soep, (m_pic_x, m_pic_y))
+soep_ID = -27
  
-pancake = pygame.image.load("assets/food/pancake.png")
+pancake = pygame.image.load("assets/food/pannenkoek.png")
 pancake = pygame.transform.smoothscale(pancake, (m_pic_x, m_pic_y))
 pancake_ID = -28
  
@@ -487,7 +489,7 @@ iced_latte = pygame.image.load("assets/soft_drinks/iced_latte.png")
 iced_latte = pygame.transform.smoothscale(iced_latte, (m_pic_x, m_pic_y))
 iced_latte_ID = -37
 
-soep_liter = pygame.image.load("assets/food/soup.png")
+soep_liter = pygame.image.load("assets/food/soep_liter.png")
 soep_liter = pygame.transform.smoothscale(soep_liter, (m_pic_x, m_pic_y))
 soep_liter_ID = -38
 
@@ -580,14 +582,14 @@ checkout_ID = 5 #Checkout ID
 alcoDrinks = [cava, cava_fles, census, climax, hugo, bier_cocktail, rose, rose_fles, r_wijn, r_wijn_fles, w_wijn, w_wijn_fles, desperados, desperados_6, lokales, back]
 alcoDrinksID = [cava_ID, cava_fles_ID, census_ID, climax_ID, hugo_ID, bier_cocktail_ID, rose_ID, rose_fles_ID,r_wijn_ID, r_wijn_fles_ID, w_wijn_ID, w_wijn_fles_ID, desperados_ID, desperados_6_ID, lokales_ID, main_ID]
  
-softDrinks = [club_mate, fritz_kola, fritz_limo, fruitsap, water, wostok, hugo_junior, almdudler, chocomelk, iced_latte, spec_1, spec_1_5, spec_2, spec_2_5, spec_3, spec_3_5, spec_4, spec_4_5, spec_5, back]
-softDrinksID =[club_mate_ID, fritz_kola_ID, fritz_limo_ID, fruitsap_ID, water_ID, wostok_ID, hugo_junior_ID, almdudler_ID, chocomelk_ID, iced_latte_ID, spec_1_ID, spec_1_5_ID, spec_2_ID, spec_2_5_ID, spec_3_ID, spec_3_5_ID, spec_4_ID, spec_4_5_ID, spec_5_ID, main_ID]
+softDrinks = [club_mate, fritz_kola, fritz_limo, fruitsap, water, wostok, hugo_junior, almdudler, iced_latte, spec_1, spec_1_5, spec_2, spec_2_5, spec_3, spec_3_5, spec_4, spec_4_5, spec_5, back]
+softDrinksID =[club_mate_ID, fritz_kola_ID, fritz_limo_ID, fruitsap_ID, water_ID, wostok_ID, hugo_junior_ID, almdudler_ID, iced_latte_ID, spec_1_ID, spec_1_5_ID, spec_2_ID, spec_2_5_ID, spec_3_ID, spec_3_5_ID, spec_4_ID, spec_4_5_ID, spec_5_ID, main_ID]
  
 hotDrinks = [koffie, thee, chocomelk, latte_macchiato, cappucino, back]
 hotDrinksID = [koffie_ID, thee_ID, chocomelk_ID, latte_macchiato_ID, cappucino_ID, main_ID]
  
-food = [chips, confituur, soup, pancake, taart, koffie_taart, soep_liter, back]
-foodID = [chips_ID, confituur_ID, soup_ID, pancake_ID, taart_ID, koffie_taart_ID, soep_liter_ID, main_ID]
+food = [chips, confituur, soep, pancake, taart, koffie_taart, soep_liter, back]
+foodID = [chips_ID, confituur_ID, soep_ID, pancake_ID, taart_ID, koffie_taart_ID, soep_liter_ID, main_ID]
  
 checkOutButtons = [back, complete]
  
@@ -669,8 +671,8 @@ while active:
                     c_menu = main_ID
  
             else:
-                if i == checkout_ID and isBijzonder == False and c_menu != checkout_ID:
-                    os.system("python3 money_calculator.py " + str(totalPrice))
+                # if i == checkout_ID and isBijzonder == False and c_menu != checkout_ID:
+                #     os.system("python3 money_calculator.py " + str(totalPrice))
                 c_menu = i
     if c_menu != checkout_ID:
         totalBTW = 0

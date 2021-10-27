@@ -1,0 +1,8 @@
+werknemer: False
+2021-10-01 20:40:46.809169:
+Climax 3.5
+Climax 3.5
+Total Price: 7.0
+BTW(21%): 0
+BTW(6%): 0
+@

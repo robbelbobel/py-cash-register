@@ -57,7 +57,7 @@ postPrintString = "------------------\\n" + "Totaal: " + str(format(total, '.2f'
 if isDummy == True:
 	postPrintString = "***WERKNEMER***" + postPrintString
 
-orderPrintString = ""    
+orderPrintString = ""
 while x < len(items):
     orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\\n")
     x += 1
