@@ -43,7 +43,7 @@ def printOrders():
         elif s != 0:
             printString = printString + " " + str(x)
  
-    btwString = str(round(soft_totalBTW, 2)) + " " + str(round(alco_totalBTW, 2)) + " " + str(format(food_totalBTW, '.2f'))
+    btwString = str(format(round(soft_totalBTW, 2), '.2f')) + " " + str(format(round(alco_totalBTW, 2), '.2f')) + " " + str(format(food_totalBTW, '.2f'))
     os.system("python3 print.py " + printString + " " + btwString + " " + str(isBijzonder))
  
     logTotalPrice = 0
