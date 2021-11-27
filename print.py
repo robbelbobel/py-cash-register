@@ -51,7 +51,7 @@ for k in items:
 	items[items.index(k)] = k.replace("_", " ")
 
 r = int(0)
-postPrintString = "------------------\\n" + "Totaal: " + str(format(total, '.2f')) + "€\\n" + "Waarvan BTW: " + str(btwamount) + "€\n" + "6% BTW: " + str(float(softBtwAmount) + float(foodBtwAmount)) + "€\n" + "21% BTW: " + str(alcoBtwAmount) + "€\n" + "\nBTW: 0642.822.661\nCosta Hoppa\nBijzonder\nBroekstraat 31\n3300 Tienen\n" + str(datetoday) + "\n.\n.\n.\n."
+postPrintString = "------------------\\n" + "Totaal: " + str(format(total, '.2f')) + "€\\n" + "Waarvan BTW: " + str(btwamount) + "€\n" + "12% BTW: " + str(float(foodBtwAmount)) + "€\n" + "21% BTW: " + str(float(alcoBtwAmount) + float(softBtwAmount)) + "€\n" + "\nBTW: 0642.822.661\nCosta Hoppa\nBijzonder\nBroekstraat 31\n3300 Tienen\n" + str(datetoday) + "\n.\n.\n.\n."
 # postPrintString = "------------------\\n" + "Totaal: " + str(format(total, '.2f')) + "€\\n" + "Waarvan BTW: " + str(btwamount) + "€\n" + "6% BTW: " + str(float(softBtwAmount) + float(foodBtwAmount) + float(alcoBtwAmount)) + "€\n" + "€\n" + "\nBTW: 0642.822.661\nCosta Hoppa\nBijzonder\nBroekstraat 31\n3300 Tienen\n" + str(datetoday) + "\n.\n.\n.\n."
 
 if isDummy == True:

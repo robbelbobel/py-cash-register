@@ -112,7 +112,7 @@ def drawOrders(tBTW):
             btw = 21/100        # Alcohol BTW
             alco_totalBTW += price - (price / (1 + btw))
         elif x in softDrinksID:
-            btw = 6/100         # Softdrinks BTW
+            btw = 21/100         # Softdrinks BTW
             soft_totalBTW += price - (price / (1 + btw))
         else:
             btw = 12/100        # Food BTW
