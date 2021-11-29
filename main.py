@@ -327,7 +327,7 @@ pygame.init()
 pygame.font.init()
  
 w = 1920
-h = 950
+h = 980
  
 c_menu = 4
  
