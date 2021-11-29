@@ -326,8 +326,8 @@ def getCoordinates(obj, objNumberX, objNumberY, placeX, placeY, isText, isDrink,
 pygame.init()
 pygame.font.init()
  
-w = 1280
-h = 720
+w = 1920
+h = 1000
  
 c_menu = 4
  
