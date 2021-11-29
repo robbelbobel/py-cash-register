@@ -8,10 +8,9 @@ from datetime import datetime
 # test
 
 def printOrders():
-    global alco_totalBTW
-    global soft_totalBTW
-    global food_totalBTW
- 
+    global btw_21
+    global btw_12
+
     global isBijzonder
  
     # print(orderList)
@@ -43,7 +42,7 @@ def printOrders():
         elif s != 0:
             printString = printString + " " + str(x)
  
-    btwString = str(format(round(soft_totalBTW, 2), '.2f')) + " " + str(format(round(alco_totalBTW, 2), '.2f')) + " " + str(format(food_totalBTW, '.2f'))
+    btwString = str(format(round(btw_21, 2), '.2f')) + " " + str(format(round(btw_12, 2), '.2f'))
     os.system("python3 print.py " + printString + " " + btwString + " " + str(isBijzonder))
  
     logTotalPrice = 0
@@ -57,8 +56,8 @@ def printOrders():
     for x in orderList:
         f.write(str(nameList[-x]) + " " + str(priceList[-x]) + "\n")
     f.write("Total Price: " + str(logTotalPrice) + "\n")
-    f.write("BTW(21%): " + str(round(alco_totalBTW, 2)) + "\n")
-    f.write("BTW(6%): " + str(round(soft_totalBTW, 2)) + "\n")
+    f.write("BTW(21%): " + str(round(btw_21, 2)) + "\n")
+    f.write("BTW(12%): " + str(round(btw_12, 2)) + "\n")
     f.write("@\n")
     f.close()
  
@@ -88,13 +87,8 @@ def updatePrice(price):
  
 def drawOrders(tBTW):
     #defining global BTW variables
-    global alco_totalBTW
-    global soft_totalBTW
-    global food_totalBTW
- 
-    #check for doubles
-    seen = []    
-    doubles = []
+    global btw_12
+    global btw_21
  
     m = w_tot / 1000
  
@@ -110,13 +104,18 @@ def drawOrders(tBTW):
 
         if x in alcoDrinksID:
             btw = 21/100        # Alcohol BTW
-            alco_totalBTW += price - (price / (1 + btw))
+            btw_21 += price - (price / (1 + btw))
         elif x in softDrinksID:
             btw = 21/100         # Softdrinks BTW
-            soft_totalBTW += price - (price / (1 + btw))
+            btw_21 += price - (price / (1 + btw))
         else:
-            btw = 12/100        # Food BTW
-            food_totalBTW += price - (price / (1 + btw))
+            if x == chips_ID:
+                print("Chips")
+                btw = 21/100
+                btw_21 += price - (price / (1 + btw))
+            else:
+                btw = 12/100        # Food BTW
+                btw_12 += price - (price / (1 + btw))
  
         tBTW += price - (price / (1 + btw))
  
@@ -605,13 +604,11 @@ bg = pygame.transform.scale(bg, (int(w), int(h)))
  
 #Total BTW variables
 totalBTW = 0
-global alco_totalBTW
-global soft_totalBTW
-global food_totalBTW
- 
-alco_totalBTW = 0
-soft_totalBTW = 0
-food_totalBTW = 0
+global btw_12
+global btw_21
+
+btw_12 = 0
+btw_21 = 0
  
 global isBijzonder
 isBijzonder = False
@@ -679,9 +676,8 @@ while active:
                 c_menu = i
     if c_menu != checkout_ID:
         totalBTW = 0
-        alco_totalBTW = 0
-        soft_totalBTW = 0
-        food_totalBTW = 0
+        btw_21 = 0
+        btw_12 = 0
         totalBTW = sideBar(totalBTW)
     pygame.time.delay(100)
  
