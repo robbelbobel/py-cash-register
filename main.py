@@ -102,22 +102,14 @@ def drawOrders(tBTW):
  
         price = priceList[-x]
 
-        if x in alcoDrinksID:
-            btw = 21/100        # Alcohol BTW
-            btw_21 += price - (price / (1 + btw))
-        elif x in softDrinksID:
-            btw = 21/100         # Softdrinks BTW
-            btw_21 += price - (price / (1 + btw))
+        if x in foodID and x != chips_ID:
+            print("in food ID")
+            btw_12 += price - (price / (1 + (12 / 100)))
+            tBTW += price - (price / (1 + (12 / 100)))
         else:
-            if x == chips_ID:
-                print("Chips")
-                btw = 21/100
-                btw_21 += price - (price / (1 + btw))
-            else:
-                btw = 12/100        # Food BTW
-                btw_12 += price - (price / (1 + btw))
+            btw_21 += price - (price / (1 + (21 / 100)))
+            tBTW += price - (price / (1 + (21 / 100)))
  
-        tBTW += price - (price / (1 + btw))
  
         name = nameList[-x]
  
@@ -616,14 +608,10 @@ isBijzonder = False
 while active:    
     totalPrice = 0
     totalPrice = updatePrice(totalPrice)
- 
-    #print(orderList)
- 
+  
     del buttons
     buttons = []
- 
-    #print(c_menu)
- 
+
     win.fill((255,255,255))
  
     if c_menu == main_ID:
@@ -646,12 +634,7 @@ while active:
             if event.key == pygame.K_d:
                 isBijzonder = not isBijzonder
         if event.type == pygame.MOUSEBUTTONDOWN:
- 
-            #print("clicked")
- 
             i = buttonHandler(c_menu)
- 
-            # print ("i:" + str(i))
  
             if i < 0 :
                 if i == bijzonder_ID:

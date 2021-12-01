@@ -20,7 +20,7 @@ for e in cmdargs:
 	elif x == 1 :
 		prices.append(e)
 		x = 0
-os.system("lp -o fit-to-page -o portrait assets/bijzonder_pic.jpg")
+
 total = float(0)
 count = []
 multiples = []
@@ -57,11 +57,12 @@ if isDummy == True:
 
 orderPrintString = ""
 while x < len(items):
-    orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\\n")
+    orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\n")
     x += 1
 
 print(orderPrintString + postPrintString)
 
-os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
+# os.system("lp -o fit-to-page -o portrait assets/bijzonder_pic.jpg")
+# os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
 
 
