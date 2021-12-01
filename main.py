@@ -12,8 +12,7 @@ def printOrders():
     global btw_12
 
     global isBijzonder
- 
-    # print(orderList)
+
     printList = []
     printPrices = []
     printNames = []
@@ -103,7 +102,6 @@ def drawOrders(tBTW):
         price = priceList[-x]
 
         if x in foodID and x != chips_ID:
-            print("in food ID")
             btw_12 += price - (price / (1 + (12 / 100)))
             tBTW += price - (price / (1 + (12 / 100)))
         else:
@@ -199,9 +197,6 @@ def hotMenu():
  
     blitDrinks(hot_objnumX, hot_objnumY, hotDrinks, hotDrinksID)
  
-    # t_hotMenu = myFont.render("hotMenu", False, (255, 255, 255))
-    # win.blit(t_hotMenu, getCoordinates(t_hotMenu, 1,1, 0, 0 ,True, False, 0))
- 
 def coldMenu():
     win.blit(bg, (0, 0))
  
@@ -209,9 +204,6 @@ def coldMenu():
     cold_objnumY = 4
  
     blitDrinks(cold_objnumX, cold_objnumY, softDrinks, softDrinksID)
- 
-    # t_coldMenu = myFont.render("coldMenu", False, (255, 255, 255))
-    # win.blit(t_coldMenu, getCoordinates(t_coldMenu, 1,1, 0, 0 ,True, False, 0))
  
 def alcoMenu():
     win.blit(bg, (0, 0))
@@ -227,7 +219,6 @@ def foodMenu():
     food_objnumX = 4
     food_objnumY = 2
  
-    #win.blit(back, getCoordinates(back, food_objnumX, food_objnumY, 0, 0, False, False, main_ID))
     blitDrinks(food_objnumX, food_objnumY, food, foodID)
  
 def buttonHandler(c_menu):
@@ -239,22 +230,14 @@ def buttonHandler(c_menu):
     while l < len(buttons):
         if buttons[l] != None:
             button = buttons[l]
-            #print(button[4])
             if button[5] == False or button[4] == main_ID:
-                #print("3")
- 
                 if mouse_pos[0] > button[0] and mouse_pos[0] < button[0] + button[2]:
- 
                    if mouse_pos[1] > button[1] and mouse_pos[1] < button[1] + button[3]:
-                        #print("b4:" + str(button[4]))
                         return button[4]
  
             if button[5] == True and button[4] != main_ID:
- 
                 if mouse_pos[0] > button[0] and mouse_pos[0] < button[0] + button[2]:
- 
                    if mouse_pos[1] > button[1] and mouse_pos[1] < button[1] + button[3]:
- 
                        if button[4] == clear_ID or button[4] == delete_ID or button[4] == complete_ID or button[4] == bijzonder_ID:
                            return button[4]
                        else:
@@ -287,8 +270,8 @@ def getCoordinates(obj, objNumberX, objNumberY, placeX, placeY, isText, isDrink,
         obj_width = obj.get_width()
         obj_height = obj.get_height()
  
-        x = (w/objNumberX)/2 #midden van stuk
-        x = x + placeX * w/objNumberX #add a place by adding place amount of times width divided by amount of spaces needed
+        x = (w/objNumberX)/2
+        x = x + placeX * w/objNumberX
         y = (h/objNumberY)/2
         y = y + placeY * h/objNumberY
         x -= obj_width/2
@@ -654,8 +637,6 @@ while active:
                     c_menu = main_ID
  
             else:
-                # if i == checkout_ID and isBijzonder == False and c_menu != checkout_ID:
-                #     os.system("python3 money_calculator.py " + str(totalPrice))
                 c_menu = i
     if c_menu != checkout_ID:
         totalBTW = 0
@@ -663,9 +644,6 @@ while active:
         btw_12 = 0
         totalBTW = sideBar(totalBTW)
     pygame.time.delay(100)
- 
-    # print("alco BTW: " + str(alco_totalBTW) + "\n")
-    # print("soft BTW: " + str(soft_totalBTW) + "\n")
  
     if(isBijzonder):
         win.blit(t_dummy, (0,0))
