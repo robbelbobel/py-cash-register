@@ -28,18 +28,18 @@ r = 0
 
 #Calculate total price
 for k in prices:
-    total += float(k)
-    print(float(k))
+	total += float(k)
+	print(float(k))
 
 while r < len(items):
 	if items.count(items[r]) > 1:
-	    if items[r] in multiples:
-		    prices.pop(r)
-		    items.pop(r)
-	    else:
-		    multiples.append(items[r])
-		    count.append(items.count(items[r]))
-		    r += 1
+		if items[r] in multiples:
+			prices.pop(r)
+			items.pop(r)
+		else:
+			multiples.append(items[r])
+			count.append(items.count(items[r]))
+			r += 1
 	
 	elif items.count(items[r]) == 1:
 		count.append(1)
@@ -57,8 +57,8 @@ if isDummy == True:
 
 orderPrintString = ""
 while x < len(items):
-    orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\n")
-    x += 1
+	orderPrintString += str(count[x]) + "x" + str(items[x]) + "-" + str(prices[x] + "€\n")
+	x += 1
 
 print(orderPrintString + postPrintString)
 
