@@ -62,7 +62,7 @@ while x < len(items):
 
 print(orderPrintString + postPrintString)
 
-# os.system("lp -o fit-to-page -o portrait assets/bijzonder_pic.jpg")
-# os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
+os.system("lp -o fit-to-page -o portrait assets/bijzonder_pic.jpg")
+os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
 
 
