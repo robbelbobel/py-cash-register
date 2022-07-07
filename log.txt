@@ -6,3 +6,157 @@ Total Price: 7.0
 BTW(21%): 0
 BTW(6%): 0
 @
+werknemer: False
+2021-11-29 16:47:12.565552:
+Fruitsap 2.5
+Fruitsap 2.5
+Total Price: 5.0
+BTW(21%): 0
+BTW(12%): 0.87
+@
+werknemer: False
+2021-11-29 16:49:17.314598:
+Thee 2.5
+Fritz_Limo 3.0
+Climax 3.5
+Soep 4.0
+Total Price: 13.0
+BTW(21%): 1.13
+BTW(12%): 0.7
+@
+werknemer: False
+2021-11-29 16:58:14.273633:
+Climax 3.5
+Climax 3.5
+Pannenkoek 2.0
+Pannenkoek 2.0
+Total Price: 11.0
+BTW(21%): 1.21
+BTW(12%): 0.43
+@
+werknemer: False
+2021-11-29 16:58:14.339967:
+Total Price: 0
+BTW(21%): 1.21
+BTW(12%): 0.43
+@
+werknemer: False
+2021-11-29 17:04:14.407715:
+Thee 2.5
+Chocomelk 2.5
+Pannenkoek 2.0
+Soep 4.0
+Total Price: 11.0
+BTW(21%): 0
+BTW(12%): 1.18
+@
+werknemer: False
+2021-11-29 17:04:56.835945:
+Chips 2.5
+Chips 2.5
+Chips 2.5
+Total Price: 7.5
+BTW(21%): 1.3
+BTW(12%): 0
+@
+werknemer: False
+2021-11-29 17:07:16.676948:
+Chips 2.5
+Chips 2.5
+Total Price: 5.0
+BTW(21%): 0.87
+BTW(12%): 0
+@
+werknemer: False
+2021-11-29 17:07:16.740432:
+Total Price: 0
+BTW(21%): 0.87
+BTW(12%): 0
+@
+werknemer: False
+2021-11-29 17:08:57.434303:
+Chips 2.5
+Total Price: 2.5
+BTW(21%): 0.43
+BTW(12%): 0
+@
+werknemer: False
+2021-12-01 13:18:47.280826:
+Latte 3.0
+Total Price: 3.0
+BTW(21%): 0
+BTW(12%): 0.32
+@
+werknemer: False
+2021-12-01 13:19:56.885590:
+Thee 2.5
+Total Price: 2.5
+BTW(21%): 0
+BTW(12%): 0.27
+@
+werknemer: False
+2021-12-01 13:24:09.280563:
+Chips 2.5
+Total Price: 2.5
+BTW(21%): 0.43
+BTW(12%): 0
+@
+werknemer: False
+2021-12-01 13:24:18.880773:
+Koffie 2.5
+Total Price: 2.5
+BTW(21%): 0
+BTW(12%): 0.27
+@
+werknemer: False
+2021-12-01 13:30:15.427543:
+Thee 2.5
+Total Price: 2.5
+BTW(21%): 0.43
+BTW(12%): 0
+@
+werknemer: False
+2021-12-01 13:30:41.213213:
+Koffie 2.5
+Latte 3.0
+Total Price: 5.5
+BTW(21%): 0.95
+BTW(12%): 0
+@
+werknemer: False
+2021-12-01 13:31:31.718386:
+Latte 3.0
+Latte 3.0
+Fritz_Limo 3.0
+Total Price: 9.0
+BTW(21%): 1.56
+BTW(12%): 0
+@
+werknemer: False
+2021-12-09 14:04:11.819191:
+Chips 2.5
+Total Price: 2.5
+BTW(21%): 0.43
+BTW(12%): 0
+@
+werknemer: False
+2021-12-09 14:04:24.638432:
+Confituur 2.0
+Total Price: 2.0
+BTW(21%): 0
+BTW(12%): 0.21
+@
+werknemer: False
+2021-12-09 14:04:32.430944:
+Chips 2.5
+Total Price: 2.5
+BTW(21%): 0.43
+BTW(12%): 0
+@
+werknemer: False
+2021-12-09 14:04:40.129522:
+Pannenkoek 2.0
+Total Price: 2.0
+BTW(21%): 0
+BTW(12%): 0.21
+@
