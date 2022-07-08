@@ -65,5 +65,8 @@ print(orderPrintString + postPrintString)
 # os.system("lp -o fit-to-page -o portrait assets/bijzonder_pic.jpg")
 # os.system("echo \"" + orderPrintString + postPrintString + "\" |lp")
 
+os.system("stty -F /dev/serial0 19200")
+os.system("echo \"" + orderPrintString + postPrintString + "\" > /dev/serial0")
+
 print(orderPrintString + postPrintString)
 
