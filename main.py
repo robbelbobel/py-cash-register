@@ -216,8 +216,8 @@ def alcoMenu():
 def foodMenu():
     win.blit(bg, (0, 0))
  
-    food_objnumX = 4
-    food_objnumY = 2
+    food_objnumX = 3
+    food_objnumY = 3
  
     blitDrinks(food_objnumX, food_objnumY, food, foodID)
  
